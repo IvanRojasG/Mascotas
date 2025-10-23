@@ -11,8 +11,8 @@ import java.sql.*;
  */
 public class ConexionDB {
     private String urlConexion="jdbc:derby://localhost:1527/MascotasElRefugio";
-    private String usrName="adminSIS";
-    private String password="adminSIS123";
+    private String usrName="admiSIS";
+    private String password="SIS12345";
     
     public Connection conectar() throws SQLException{
         return DriverManager.getConnection(urlConexion, usrName, password);
